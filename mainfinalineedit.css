@@ -1,0 +1,38 @@
+body{
+	background:linear-gradient(to right,#EEB92A,#EE2A2A,#28A8E3,#28A8E3,#EE2A2A,#EEB92A);
+	margin-left:161px;
+}
+.menu{
+	background-color:white;
+	width:70px;
+	height:100%;
+	position:fixed;
+	left:0px;
+	top:0px;
+	transition-duration:0.5s;
+	border-right:95px solid black;
+}
+.menu:hover{
+	width:150px;
+	border-right:0px solid black;
+}
+img{
+	margin-left:5px;
+	margin-top:5px;
+	width:60px;
+	height:50px;
+}
+.menu a{
+	display:flex;
+	align-self:center;
+}
+.menu a p{
+	margin-left:5px;
+	margin-top:20px;
+	color:black;
+	opacity:0;
+}
+.menu:hover a p{
+	color:black;
+	opacity:100;
+}
